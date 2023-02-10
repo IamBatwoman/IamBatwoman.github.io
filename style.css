@@ -1,0 +1,40 @@
+/* Fichier CSS à personnaliser */
+
+h1 {
+    text-align: center;
+    color: rgb(253, 253, 253);
+    background-color: rgb(231, 197, 122);
+  }
+  
+
+.special {
+    color: orange;
+    background-color: navy;
+    border: solid black;
+  }
+
+.souligne {
+    text-decoration: underline red;
+}
+
+#bloc1 {
+    border: 5px solid purple;
+    width: 40%;
+    background-color: darkturquoise;
+    color: white;
+    padding:20px;
+  }
+
+  #monImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3 {
+    text-align: center;
+    color: rgb(228, 183, 93);
+    background-color: rgb(241, 229, 203);
+  }
+
+  

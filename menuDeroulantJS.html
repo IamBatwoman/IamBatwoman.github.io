@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!-- le lien vers le fichier JavaScript doit être placé juste avant la balise fermante </head> -->
+        <meta charset="UTF-8">
+        <title>Test JS</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+
+
+    <body>
+        <h1>JavaScript avec menu déroulant</h1>
+        
+        <p>Sélectionner une divinité pour obtenir des informations:</p>
+        <select onchange="Mythologie(this.value)">
+            <option value="rien" selected></option>
+            <option value="Zeus">Zeus</option>
+            <option value="Héra">Héra</option>
+            <option value="Poséidon">Poséidon</option>
+            <option value="Déméter">Déméter</option>
+            <option value="Aphrodite">Aphrodite</option>
+            <option value="Artémis">Artémis</option>
+            <option value="Apollon">Apollon</option>
+            <option value="Athéna">Athéna</option>
+            <option value="Hermès">Hermès</option>
+            <option value="Dionysos">Dionysos</option>
+            <option value="Hadès">Hadès</option>
+        </select>
+        <a href="file:///C:/Users/rosegrigentin/OneDrive%20-%20R%C3%A9gion%20%C3%8Ele-de-France/Documents/HTML/index.html">Page précédente...</a><br>
+        <br/>
+        <div id="infoDivinités"> 
+        </div>
+	</body>
+</html>
